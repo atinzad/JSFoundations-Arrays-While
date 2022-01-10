@@ -88,7 +88,7 @@ function secondHalfOfArrayIfItIsEven(fruits) {
  * - Use string method .slice()
  */
 function youGottaCalmDown(shout) {
-  return shout.indexOf('!')===-1 ? shout : shout.slice(0,shout.indexOf('!')+1);
+  return shout.slice(0,shout.indexOf('!')+1);
 }
 
 
